@@ -5,7 +5,8 @@
   "author": "Jungwoo-An <o1o9814@naver.com>",
   "license": "MIT",
   "scripts": {
-    "test": "mocha -r ts-node/register './tests/**/*.spec.ts'"
+    "test": "mocha -r ts-node/register './tests/**/*.spec.ts'",
+    "test:watch": "mocha --require ts-node/register --watch --watch-files lib, tests/**/*.ts"
   },
   "repository": {
     "type": "git",
