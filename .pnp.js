@@ -38,8 +38,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@types/chai", "npm:4.2.14"],
+            ["@types/css-tree", "npm:1.0.5"],
             ["@types/mocha", "npm:8.2.0"],
             ["chai", "npm:4.2.0"],
+            ["css-tree", "npm:1.1.2"],
             ["eslint", "npm:7.18.0"],
             ["eslint-config-airbnb-base", "virtual:8d16aa5fb9b25c5e788d3084d0cc4e4f088bae1a4ddeadb825a72ef2121dd267f6aa554f297f36867f2965e66fc45036afef16ff23214203a933baa0b48f4995#npm:14.2.1"],
             ["eslint-plugin-import", "virtual:8d16aa5fb9b25c5e788d3084d0cc4e4f088bae1a4ddeadb825a72ef2121dd267f6aa554f297f36867f2965e66fc45036afef16ff23214203a933baa0b48f4995#npm:2.22.1"],
@@ -105,6 +107,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-chai-npm-4.2.14-9b7660dafb-d226f4549a.zip/node_modules/@types/chai/",
           "packageDependencies": [
             ["@types/chai", "npm:4.2.14"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/css-tree", [
+        ["npm:1.0.5", {
+          "packageLocation": "./.yarn/cache/@types-css-tree-npm-1.0.5-8d33ab8a09-88ab45cbcd.zip/node_modules/@types/css-tree/",
+          "packageDependencies": [
+            ["@types/css-tree", "npm:1.0.5"]
           ],
           "linkType": "HARD",
         }]
@@ -707,6 +718,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["path-key", "npm:3.1.1"],
             ["shebang-command", "npm:2.0.0"],
             ["which", "npm:2.0.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["css-tree", [
+        ["npm:1.1.2", {
+          "packageLocation": "./.yarn/cache/css-tree-npm-1.1.2-6640724d34-a6b14e13fe.zip/node_modules/css-tree/",
+          "packageDependencies": [
+            ["css-tree", "npm:1.1.2"],
+            ["mdn-data", "npm:2.0.14"],
+            ["source-map", "npm:0.6.1"]
           ],
           "linkType": "HARD",
         }]
@@ -2038,6 +2060,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["mdn-data", [
+        ["npm:2.0.14", {
+          "packageLocation": "./.yarn/cache/mdn-data-npm-2.0.14-0acd669f0d-57a27f585a.zip/node_modules/mdn-data/",
+          "packageDependencies": [
+            ["mdn-data", "npm:2.0.14"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["mime-db", [
         ["npm:1.45.0", {
           "packageLocation": "./.yarn/cache/mime-db-npm-1.45.0-f3709f033e-86701c54f7.zip/node_modules/mime-db/",
@@ -2909,8 +2940,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["split-media-query-plugin", "workspace:."],
             ["@types/chai", "npm:4.2.14"],
+            ["@types/css-tree", "npm:1.0.5"],
             ["@types/mocha", "npm:8.2.0"],
             ["chai", "npm:4.2.0"],
+            ["css-tree", "npm:1.1.2"],
             ["eslint", "npm:7.18.0"],
             ["eslint-config-airbnb-base", "virtual:8d16aa5fb9b25c5e788d3084d0cc4e4f088bae1a4ddeadb825a72ef2121dd267f6aa554f297f36867f2965e66fc45036afef16ff23214203a933baa0b48f4995#npm:14.2.1"],
             ["eslint-plugin-import", "virtual:8d16aa5fb9b25c5e788d3084d0cc4e4f088bae1a4ddeadb825a72ef2121dd267f6aa554f297f36867f2965e66fc45036afef16ff23214203a933baa0b48f4995#npm:2.22.1"],

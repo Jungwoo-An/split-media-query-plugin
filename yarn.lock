@@ -57,6 +57,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/css-tree@npm:^1.0.5":
+  version: 1.0.5
+  resolution: "@types/css-tree@npm:1.0.5"
+  checksum: 88ab45cbcd0bcfa84ee7740090a09652b129367101f0191b907b9a623d5fcd304b564bd990b6176cc41e4ac65aa4330c733ee2ac289651beb2acf1e2663e8e90
+  languageName: node
+  linkType: hard
+
 "@types/json5@npm:^0.0.29":
   version: 0.0.29
   resolution: "@types/json5@npm:0.0.29"
@@ -569,6 +576,16 @@ __metadata:
     shebang-command: ^2.0.0
     which: ^2.0.1
   checksum: 51f10036f5f1de781be98f4738d58b50c6d44f4f471069b8ab075b21605893ba1548654880f7310a29a732d6fc7cd481da6026169b9f0831cab0148a62fb397a
+  languageName: node
+  linkType: hard
+
+"css-tree@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "css-tree@npm:1.1.2"
+  dependencies:
+    mdn-data: 2.0.14
+    source-map: ^0.6.1
+  checksum: a6b14e13fe072dc902b11ca149d23d78c6804699d88060900de58699cae4aa469468af9fead808029f9d83fced08d67b99b009c83d3e07b90e064e5143b9096b
   languageName: node
   linkType: hard
 
@@ -1715,6 +1732,13 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"mdn-data@npm:2.0.14":
+  version: 2.0.14
+  resolution: "mdn-data@npm:2.0.14"
+  checksum: 57a27f585adb0ab978b0229aa2347dfbdb897e340a3cd3547a7de3162680af641bf2cdf185771b3bca29fabf8c46b486a45a4809dd5d9321465c80e6adad98f4
+  languageName: node
+  linkType: hard
+
 "mime-db@npm:1.45.0":
   version: 1.45.0
   resolution: "mime-db@npm:1.45.0"
@@ -2455,7 +2479,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"source-map@npm:^0.6.0":
+"source-map@npm:^0.6.0, source-map@npm:^0.6.1":
   version: 0.6.1
   resolution: "source-map@npm:0.6.1"
   checksum: 8647829a0611724114022be455ca1c8a2c8ae61df81c5b3667d9b398207226a1e21174fb7bbf0b4dbeb27ac358222afb5a14f1c74a62a62b8883b012e5eb1270
@@ -2501,8 +2525,10 @@ fsevents@~2.1.2:
   resolution: "split-media-query-plugin@workspace:."
   dependencies:
     "@types/chai": ^4.2.14
+    "@types/css-tree": ^1.0.5
     "@types/mocha": ^8.2.0
     chai: ^4.2.0
+    css-tree: ^1.1.2
     eslint: ^7.18.0
     eslint-config-airbnb-base: ^14.2.1
     eslint-plugin-import: ^2.22.1
