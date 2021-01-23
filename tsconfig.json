@@ -5,7 +5,9 @@
     "module": "CommonJS",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "baseUrl": "."
+    "declaration": true,
+    "baseUrl": ".",
+    "outDir": "./dist"
   },
   "include": ["./lib/**/*.ts", "./tests/**/*.ts"]
 }
