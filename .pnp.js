@@ -44,6 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/mocha", "npm:8.2.0"],
             ["@types/webpack", "npm:4.41.26"],
             ["@types/webpack-sources", "npm:2.1.0"],
+            ["bootstrap", "virtual:8d16aa5fb9b25c5e788d3084d0cc4e4f088bae1a4ddeadb825a72ef2121dd267f6aa554f297f36867f2965e66fc45036afef16ff23214203a933baa0b48f4995#npm:5.0.0-beta1"],
             ["chai", "npm:4.2.0"],
             ["css-loader", "virtual:8d16aa5fb9b25c5e788d3084d0cc4e4f088bae1a4ddeadb825a72ef2121dd267f6aa554f297f36867f2965e66fc45036afef16ff23214203a933baa0b48f4995#npm:5.0.1"],
             ["css-tree", "npm:1.1.2"],
@@ -954,6 +955,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/boolbase-npm-1.0.0-965fe9af6d-e827963c41.zip/node_modules/boolbase/",
           "packageDependencies": [
             ["boolbase", "npm:1.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["bootstrap", [
+        ["npm:5.0.0-beta1", {
+          "packageLocation": "./.yarn/cache/bootstrap-npm-5.0.0-beta1-f28d27a2f7-c5e3a5f2fc.zip/node_modules/bootstrap/",
+          "packageDependencies": [
+            ["bootstrap", "npm:5.0.0-beta1"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:8d16aa5fb9b25c5e788d3084d0cc4e4f088bae1a4ddeadb825a72ef2121dd267f6aa554f297f36867f2965e66fc45036afef16ff23214203a933baa0b48f4995#npm:5.0.0-beta1", {
+          "packageLocation": "./.yarn/$$virtual/bootstrap-virtual-6399169e9e/0/cache/bootstrap-npm-5.0.0-beta1-f28d27a2f7-c5e3a5f2fc.zip/node_modules/bootstrap/",
+          "packageDependencies": [
+            ["bootstrap", "virtual:8d16aa5fb9b25c5e788d3084d0cc4e4f088bae1a4ddeadb825a72ef2121dd267f6aa554f297f36867f2965e66fc45036afef16ff23214203a933baa0b48f4995#npm:5.0.0-beta1"],
+            ["@popperjs/core", null],
+            ["@types/popperjs__core", null]
+          ],
+          "packagePeers": [
+            "@popperjs/core",
+            "@types/popperjs__core"
           ],
           "linkType": "HARD",
         }]
@@ -4824,6 +4847,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/mocha", "npm:8.2.0"],
             ["@types/webpack", "npm:4.41.26"],
             ["@types/webpack-sources", "npm:2.1.0"],
+            ["bootstrap", "virtual:8d16aa5fb9b25c5e788d3084d0cc4e4f088bae1a4ddeadb825a72ef2121dd267f6aa554f297f36867f2965e66fc45036afef16ff23214203a933baa0b48f4995#npm:5.0.0-beta1"],
             ["chai", "npm:4.2.0"],
             ["css-loader", "virtual:8d16aa5fb9b25c5e788d3084d0cc4e4f088bae1a4ddeadb825a72ef2121dd267f6aa554f297f36867f2965e66fc45036afef16ff23214203a933baa0b48f4995#npm:5.0.1"],
             ["css-tree", "npm:1.1.2"],
