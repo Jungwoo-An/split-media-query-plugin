@@ -23,7 +23,9 @@ module.exports = {
     ],
   },
   plugins: [
-    new HtmlWebpackPlugin(),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, './index.html'),
+    }),
     new MiniCssExtractPlugin(),
     new SplitMediaQueryPlugin(),
   ],
