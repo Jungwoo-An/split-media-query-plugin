@@ -32,12 +32,20 @@ function extract(css: string) {
     }
 
     queries[query].children.appendData(node);
+
+    list.remove(item);
   });
 
-  return Object.keys(queries).map((query) => ({
-    stylesheet: generate(queries[query]),
-    query,
-  }));
+  return [
+    {
+      stylesheet: generate(ast),
+      query: undefined,
+    },
+    ...Object.keys(queries).map((query) => ({
+      stylesheet: generate(queries[query]),
+      query: query.replace(/\@media/, '').trim(),
+    })),
+  ];
 }
 
 export default extract;
