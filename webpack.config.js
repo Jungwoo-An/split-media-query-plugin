@@ -6,6 +6,7 @@ module.exports = {
   output: {
     path: path.resolve('./dist'),
     filename: 'split-media-query-plguin.js',
+    libraryExport: 'default',
     libraryTarget: 'commonjs2',
   },
   module: {
