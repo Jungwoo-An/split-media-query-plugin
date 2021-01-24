@@ -43,7 +43,7 @@ function extract(css: string) {
     },
     ...Object.keys(queries).map((query) => ({
       stylesheet: generate(queries[query]),
-      query: query.replace(/\@media/, '').trim(),
+      query: query.replace(/(\@media|\;)/g, '').trim(),
     })),
   ];
 }

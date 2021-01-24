@@ -56,13 +56,13 @@ describe('SplitMediaQueryPlugin', () => {
           expect(links.length).to.eq(4);
           expect(links[0].href).to.eq('app.css');
           expect(links[1].href).to.eq('app.1.css');
-          expect(links[1].media).to.eq('(max-width:767px);');
+          expect(links[1].media).to.eq('(max-width:767px)');
           expect(links[2].href).to.eq('app.2.css');
           expect(links[2].media).to.eq(
-            '(min-width:768px) and (max-width:1023px);'
+            '(min-width:768px) and (max-width:1023px)'
           );
           expect(links[3].href).to.eq('app.3.css');
-          expect(links[3].media).to.eq('(min-width:1024px);');
+          expect(links[3].media).to.eq('(min-width:1024px)');
 
           done();
         } catch (e) {
